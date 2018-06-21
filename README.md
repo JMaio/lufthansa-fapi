@@ -23,4 +23,5 @@ This resource turns out to be a `.json` file with a bunch of useful properties, 
 - _a few other bits_
 
 ## what's next?
-First thoughts would be to place the flight on a world map, giving more interactivity than overhead screens.
+First thoughts would be to place the flight on a world map, giving more interactivity than overhead screens - this could include tracing the route on the map.
+

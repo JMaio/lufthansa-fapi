@@ -1,7 +1,7 @@
 # lufthansa-fapi
 
 ## What?
-This script is a proof-of-concept of what can be done with information provided onboard a **FlyNet-equipped** Lufthansa flight.
+This script is a proof-of-concept of what can be done with information provided **_onboard_ a FlyNet-equipped** Lufthansa flight.
 Every _5 seconds_, the script issues a request to the onboard `fapi`, and displays the current:
 - Distance to destination
 - Heading
@@ -15,7 +15,7 @@ This Wi-Fi access point is always available; however, true internet access is on
 
 Lufthansa provides some information on their access gateway such as the flight destination, estimated remaining flight time, and some more touristy information.
 
-Interestingly enough, when inspecting network requests on said gateway, a certain resource was being refreshed quite often, although it was not exposed to the user via the page.
+Interestingly enough, when inspecting network requests on said gateway, a [certain resource](http://ww2.lufthansa-flynet.com/fapi/flightData) was being refreshed quite often, although it was not exposed to the user via the page.
 
 This resource turns out to be a `.json` file with a bunch of useful properties, including:
 - Flight number

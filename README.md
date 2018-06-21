@@ -2,6 +2,11 @@
 
 ## What?
 This script is a proof-of-concept of what can be done with information provided onboard a **FlyNet-equipped** Lufthansa flight.
+Every _5 seconds_, the script issues a request to the onboard `fapi`, and displays the current:
+- Distance to destination
+- Heading
+- Ground speed
+- Altitude
 
 ## How?
 Lufthansa provides a _paid_ onboard internet service through an open Wi-Fi access point aboard some of their flights.
